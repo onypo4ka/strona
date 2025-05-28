@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/regulamin.css">
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i><span class="text"> Home</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1" role="dialog" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i><span class="text">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-main">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="regulamin-container">
+                        <br>
+                        <h1>Regulamin Sklepu Internetowego OlimpijskiSklep.pl</h1>
+
+                        <h2>§1. Postanowienia ogólne</h2>
+                        <p>1. Niniejszy regulamin określa zasady korzystania ze sklepu internetowego dostępnego pod adresem <strong>www.olimpijskisklep.pl</strong>, prowadzonego przez <em>[Nazwa firmy]</em>, z siedzibą przy <em>[adres]</em>, NIP: <em>[numer NIP]</em>, REGON: <em>[numer REGON]</em>, wpisaną do <em>[rejestru, np. CEIDG/KRS]</em>.</p>
+                        <p>2. Sklep prowadzi sprzedaż detaliczną produktów związanych z tematyką olimpiady (gadżetów, odzieży, akcesoriów sportowych i kolekcjonerskich) za pośrednictwem Internetu.</p>
+                        <p>3. Kontakt ze sklepem możliwy jest poprzez e-mail: <em>[adres email]</em>, telefon: <em>[numer telefonu]</em>.</p>
+                      
+                        <h2>§2. Definicje</h2>
+                        <p>1. <strong>Klient</strong> – osoba fizyczna, prawna lub jednostka organizacyjna nieposiadająca osobowości prawnej, korzystająca ze sklepu.</p>
+                        <p>2. <strong>Sklep</strong> – sklep internetowy dostępny pod adresem www.olimpijskisklep.pl.</p>
+                        <p>3. <strong>Regulamin</strong> – niniejszy dokument regulujący zasady działania Sklepu.</p>
+                        <p>4. <strong>Towar</strong> – produkty oferowane do sprzedaży w Sklepie.</p>
+                        <p>5. <strong>Konto</strong> – indywidualny panel Klienta umożliwiający składanie zamówień, śledzenie historii zakupów itd.</p>
+                      
+                        <h2>§3. Zasady korzystania ze Sklepu</h2>
+                        <p>1. Korzystanie ze Sklepu jest możliwe za pomocą urządzenia z dostępem do Internetu i przeglądarki internetowej.</p>
+                        <p>2. Klient zobowiązany jest do podawania danych zgodnych ze stanem faktycznym.</p>
+                        <p>3. Zakazane jest dostarczanie przez Klienta treści bezprawnych.</p>
+                      
+                        <h2>§4. Składanie zamówień</h2>
+                        <p>1. Zamówienia można składać przez 24 godziny na dobę za pośrednictwem strony internetowej.</p>
+                        <p>2. Złożenie zamówienia następuje poprzez dodanie towarów do koszyka oraz wypełnienie formularza zamówienia.</p>
+                        <p>3. Warunkiem realizacji zamówienia jest akceptacja niniejszego regulaminu i polityki prywatności.</p>
+                        <p>4. Zawarcie umowy sprzedaży następuje w chwili potwierdzenia zamówienia przez Sklep.</p>
+                      
+                        <h2>§5. Ceny i płatności</h2>
+                        <p>1. Wszystkie ceny podane na stronie są cenami brutto (zawierają podatek VAT) i wyrażone są w złotych polskich (PLN).</p>
+                        <p>2. Klient ma do wyboru różne formy płatności: przelew, płatność online, płatność przy odbiorze (jeśli dostępne).</p>
+                        <p>3. Sklep zastrzega sobie prawo do zmiany cen, jednak zmiany nie dotyczą zamówień już złożonych.</p>
+                      
+                        <h2>§6. Dostawa</h2>
+                        <p>1. Dostawa towarów realizowana jest na terenie Polski (lub innych krajów, jeśli taka opcja jest dostępna).</p>
+                        <p>2. Koszty dostawy są widoczne w trakcie składania zamówienia.</p>
+                        <p>3. Termin dostawy wynosi zazwyczaj 2–7 dni roboczych od momentu zaksięgowania płatności.</p>
+                      
+                        <h2>§7. Odstąpienie od umowy</h2>
+                        <p>1. Klient będący konsumentem ma prawo odstąpić od umowy w terminie 14 dni od dnia otrzymania towaru bez podania przyczyny.</p>
+                        <p>2. Aby skorzystać z prawa odstąpienia, należy przesłać stosowne oświadczenie e-mailem lub pocztą.</p>
+                        <p>3. Zwrot towaru odbywa się na koszt Klienta, chyba że Sklep zgodził się na pokrycie tych kosztów.</p>
+                        <p>4. Zwrot środków nastąpi nie później niż w terminie 14 dni od otrzymania zwracanego towaru.</p>
+                      
+                        <h2>§8. Reklamacje</h2>
+                        <p>1. Sklep odpowiada wobec Klienta za wady fizyczne i prawne sprzedanych towarów zgodnie z przepisami Kodeksu cywilnego.</p>
+                        <p>2. Reklamacje należy zgłaszać e-mailem lub listownie, załączając opis wady oraz dowód zakupu.</p>
+                        <p>3. Sklep rozpatrzy reklamację w terminie 14 dni i poinformuje Klienta o dalszym postępowaniu.</p>
+                      
+                        <h2>§9. Ochrona danych osobowych</h2>
+                        <p>1. Administratorem danych osobowych jest <em>[Nazwa firmy]</em>.</p>
+                        <p>2. Dane osobowe przetwarzane są zgodnie z obowiązującym prawem i polityką prywatności Sklepu.</p>
+                        <p>3. Klient ma prawo wglądu do swoich danych, ich poprawiania i żądania usunięcia.</p>
+                      
+                        <h2>§10. Postanowienia końcowe</h2>
+                        <p>1. W sprawach nieuregulowanych niniejszym regulaminem zastosowanie mają przepisy prawa polskiego.</p>
+                        <p>2. Regulamin może ulec zmianie – Klienci zostaną poinformowani o zmianach za pomocą strony internetowej.</p>
+                        <p>3. Aktualny regulamin dostępny jest na stronie www.olimpijskisklep.pl/regulamin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Informacje</h5>
+            <p>
+                Igrzyska Olimpijskie 2025 – Twoje centrum sportowych emocji!<br>
+                Śledź najważniejsze wydarzenia, wyniki i ciekawostki ze świata olimpijskiego.<br>
+                <br>
+                Kontakt:<br>
+                Email: kontakt@olimpiada2025.pl<br>
+                Telefon: +48 123 456 789<br>
+                <br>
+                Adres redakcji:<br>
+                Portal Olimpijski<br>
+                ul. Sportowa 1<br>
+                00-001 Warszawa<br>
+                <br>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          <a class="text-body" style='text-decoration: none;'>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Dima Onypko</a>
+        </div>
+      </footer>
+
+
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/navbar_hide.js"></script>
+
+</body>
+</html>

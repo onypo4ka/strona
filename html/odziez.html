@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/kontener.css">
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i><span class="text"> Home</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1" role="dialog" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i><span class="text">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="container-main">
+            <h1 class="product-category">Odzież sportowa</h1>
+            <section class="product">
+                <button class="pre-btn"><img src="../arrow/arrow.png" alt="Poprzedni"></button>
+                <button class="nxt-btn"><img src="../arrow/arrow.png" alt="Następny"></button>
+                <div class="product-container">
+        
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/koszulka.png" class="product-thumb" alt="Koszulka biała">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Koszulka treningowa</h2>
+                            <span class="price">69zł</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/bluza.png" class="product-thumb" alt="Bluza czarna">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Bluza sportowa</h2>
+                            <span class="price">129zł</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/spodenki.png" class="product-thumb" alt="Spodenki treningowe">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Spodenki</h2>
+                            <span class="price">59zł</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/legginsy.png" class="product-thumb" alt="Legginsy sportowe">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Legginsy</h2>
+                            <span class="price">89zł</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/kurtka.png" class="product-thumb" alt="Kurtka do biegania">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Kurtka do biegania</h2>
+                            <span class="price">179zł</span>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/plecak.png" class="product-thumb" alt="Legginsy sportowe">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">Dodaj do koszyka <i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Plecak</h2>
+                            <span class="price">89zł</span>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/czapka.png" class="product-thumb" alt="Czapka sportowa">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">
+                                Dodaj do koszyka <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Czapka sportowa</h2>
+                            <span class="price">39zł</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Produkt 7 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/skarpety.png" class="product-thumb" alt="Skarpety sportowe">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">
+                                Dodaj do koszyka <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Skarpety sportowe</h2>
+                            <span class="price">29zł</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Produkt 8 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/szalik.png" class="product-thumb" alt="Stanik sportowy">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">
+                                Dodaj do koszyka <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Szalik</h2>
+                            <span class="price">79zł</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Produkt 9 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../zdjecia/termo.png" class="product-thumb" alt="Koszulka termiczna">
+                            <button class="card-btn" onclick="location.href='koszyk.html'">
+                                Dodaj do koszyka <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Koszulka termoaktywna</h2>
+                            <span class="price">99zł</span>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+        </div>
+        
+        <script src="../js/przesun.js"></script>
+        
+    <script src="../js/przesun.js"></script>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Informacje</h5>
+            <p>
+                Igrzyska Olimpijskie 2025 – Twoje centrum sportowych emocji!<br>
+                Śledź najważniejsze wydarzenia, wyniki i ciekawostki ze świata olimpijskiego.<br>
+                <br>
+                Kontakt:<br>
+                Email: kontakt@olimpiada2025.pl<br>
+                Telefon: +48 123 456 789<br>
+                <br>
+                Adres redakcji:<br>
+                Portal Olimpijski<br>
+                ul. Sportowa 1<br>
+                00-001 Warszawa<br>
+                <br>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          <a class="text-body" style='text-decoration: none;'>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Dima Onypko</a>
+        </div>
+      </footer>
+
+
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/navbar_hide.js"></script>
+</body>
+</html>

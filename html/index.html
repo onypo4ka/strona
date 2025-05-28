@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/glowna.css">
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i><span class="text"> Home</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1" role="dialog" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i><span class="text">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Sklep</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sprzet.html"> Sprzęt sportowy</a></li>
+                            <li><a class="dropdown-item" href="odziez.html"> Odzież sportowa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj obrazek związany z Olimpiadą</a></li>
+                            <li><a class="dropdown-item" href="maraton.html">Mapa biegu Maratońskiego</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-main">
+        <header class="hero-section">
+            <div class="container text-center">
+                <h1>Oficjalny Sklep Igrzysk Olimpijskich 2025</h1>
+                <p>Sprawdź kolekcję inspirowaną duchem sportowej rywalizacji – ubrania, sprzęt i akcesoria olimpijskie.</p>
+                <a href="#oferta-sklepu" class="btn btn-primary">Zobacz Kolekcję Olimpijską</a>
+            </div>
+        </header>
+    
+        <section id="oferta-sklepu" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Polecane Produkty Olimpijskie</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/buty.jpg" class="card-img-top" alt="Buty biegowe">
+                            <div class="card-body">
+                                <h5 class="card-title">Buty Biegowe</h5>
+                                <p class="card-text">Zaprojektowane z myślą o olimpijskim tempie – idealne do biegania na każdym poziomie.</p>
+                                <a href="../html/odziez.html" class="btn btn-success">Zobacz produkt</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/stroj.jpg" class="card-img-top" alt="Strój kąpielowy">
+                            <div class="card-body">
+                                <h5 class="card-title">Strój Kąpielowy</h5>
+                                <p class="card-text">Kolekcja olimpijska – maksymalna wydajność i komfort w wodzie.</p>
+                                <a href="../html/odziez.html" class="btn btn-success">Zobacz produkt</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/mata.jpg" class="card-img-top" alt="Mata gimnastyczna">
+                            <div class="card-body">
+                                <h5 class="card-title">Mata Gimnastyczna</h5>
+                                <p class="card-text">Zainspirowana treningami olimpijczyków – idealna do ćwiczeń w domu i na sali.</p>
+                                <a href="../html/sprzet.html" class="btn btn-success">Zobacz produkt</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/pilka.jpg" class="card-img-top" alt="Piłka nożna">
+                            <div class="card-body">
+                                <h5 class="card-title">Piłka Nożna</h5>
+                                <p class="card-text">Oficjalna piłka inspirowana turniejem olimpijskim – jakość, której możesz zaufać.</p>
+                                <a href="../html/sprzet.html" class="btn btn-success">Zobacz produkt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="about" class="bg py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">O Sklepie Olimpijskim</h2>
+                <p class="text-center">Nasz sklep to oficjalne źródło produktów związanych z Igrzyskami Olimpijskimi 2024. Znajdziesz u nas limitowane kolekcje, sportowy sprzęt i akcesoria, które pomogą Ci trenować jak mistrzowie.</p>
+            </div>
+        </section>
+    
+        <section id="about" class="bg py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">O Igrzyskach Olimpijskich</h2>
+                <p class="text-center">Igrzyska Olimpijskie to największe i najbardziej prestiżowe zawody sportowe na świecie, które odbywają się regularnie co cztery lata. W ich ramach rywalizują ze sobą najlepsi sportowcy z niemal wszystkich krajów świata, reprezentując swoje państwa w różnych dyscyplinach sportowych. Igrzyska mają długą historię, sięgającą czasów starożytnej Grecji, gdzie odbywały się ku czci bogów, a ich nowożytna forma została zapoczątkowana w 1896 roku. Dziś są symbolem pokoju, jedności i ducha fair play, łącząc ludzi różnych kultur, języków i tradycji w duchu zdrowej rywalizacji. Zawody te są nie tylko wielkim wydarzeniem sportowym, ale również kulturalnym i medialnym, przyciągającym uwagę miliardów widzów na całym świecie.
+
+                </p>
+            </div>
+        </section>
+    
+        <section id="testimonials" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Opinie Kibiców o Igrzyskach</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Igrzyska to niesamowite wydarzenie, które łączy ludzi na całym świecie w duchu sportowej rywalizacji."</p>
+                            <cite>– Anna Kowalska</cite>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Uwielbiam śledzić różnorodne dyscypliny i dopingować polskich sportowców podczas igrzysk."</p>
+                            <cite>– Michał Nowak</cite>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Atmosfera igrzysk jest niepowtarzalna, a emocje podczas finałów zapadają na długo w pamięć."</p>
+                            <cite>– Katarzyna Wiśniewska</cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Informacje</h5>
+                    <p>
+                        Igrzyska Olimpijskie 2025 – Twoje centrum sportowych emocji!<br>
+                        Śledź najważniejsze wydarzenia, wyniki i ciekawostki ze świata olimpijskiego.<br>
+                        <br>
+                        Kontakt:<br>
+                        Email: kontakt@olimpiada2025.pl<br>
+                        Telefon: +48 123 456 789<br>
+                        <br>
+                        Adres redakcji:<br>
+                        Portal Olimpijski<br>
+                        ul. Sportowa 1<br>
+                        00-001 Warszawa<br>
+                        <br>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Elementy obowiązkowe:</h5>
+                    <p>
+                        Zegar:
+                        <div id="zegar"></div>
+                        <br>
+                        Data:
+                        <div id="data"></div>
+                        <br>
+                        <div id="l_wizyty">Liczba odwiedzin:               
+                            <br>
+                            <span id="visit_count">0</span>
+                        </div>
+                        <br>
+                        <div id="czas_na_stronie">Czas spędzony na stronie:              
+                            <br>
+                            <span id="czas_ktory_uplynal">0 sekund</span>
+                        </div>
+                        <script src="../js/zegar.js"></script>
+                        <script src="../js/licznik_wizyt.js"></script>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            <a class="text-body" style="text-decoration: none;">
+                Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Dima Onypko
+            </a>
+        </div>
+    </footer>
+    
+
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/navbar_hide.js"></script>
+</body>
+</html>
